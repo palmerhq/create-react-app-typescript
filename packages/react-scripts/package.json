@@ -1,23 +1,16 @@
 {
-  "name": "react-scripts-ts",
+  "name": "react-scripts-ts-palmerhq",
   "version": "2.5.0",
   "description": "Configuration and scripts for Create React App.",
-  "repository": "wmonk/create-react-app",
+  "repository": "palmerhq/create-react-app",
   "license": "BSD-3-Clause",
   "engines": {
     "node": ">=6"
   },
   "bugs": {
-    "url": "https://github.com/wmonk/create-react-app/issues"
+    "url": "https://github.com/palmerhq/create-react-app-typescript/issues"
   },
-  "files": [
-    "bin",
-    "config",
-    "bin",
-    "scripts",
-    "template",
-    "utils"
-  ],
+  "files": ["bin", "config", "bin", "scripts", "template", "utils"],
   "bin": {
     "react-scripts-ts": "./bin/react-scripts-ts.js"
   },

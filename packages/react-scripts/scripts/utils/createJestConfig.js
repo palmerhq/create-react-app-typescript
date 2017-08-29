@@ -45,6 +45,7 @@ module.exports = (resolve, rootDir) => {
     moduleNameMapper: {
       '^react-native$': 'react-native-web',
     },
+    modulePaths: ['src/'],
     globals: {
       'ts-jest': {
         tsConfigFile: paths.appTsTestConfig,
@@ -60,6 +61,7 @@ module.exports = (resolve, rootDir) => {
     'coverageReporters',
     'coverageThreshold',
     'snapshotSerializers',
+    'modulePaths',
   ];
   if (overrides) {
     supportedKeys.forEach(key => {
